@@ -1,4 +1,4 @@
 ﻿  main.c
-c:\users\dotlaptop\documents\projects\cexercises\cexercises\agetest\main.c(12): warning C4013: 'atoi' undefined; assuming extern returning int
+c:\users\dotlaptop\documents\projects\cexercises\cexercises\agetest\main.c(26): warning C4013: 'atoi' undefined; assuming extern returning int
   AgeTest.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\AgeTest.exe
   AgeTest.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\AgeTest.pdb (Partial PDB)
