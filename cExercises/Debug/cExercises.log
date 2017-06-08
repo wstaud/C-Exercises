@@ -1,0 +1,8 @@
+﻿  SizeTest.c
+c:\users\dotlaptop\documents\projects\cexercises\cexercises\cexercises\sizetest.c(4): warning C4305: 'initializing': truncation from 'double' to 'float'
+  helloWorld.c
+c:\users\dotlaptop\documents\projects\cexercises\cexercises\cexercises\helloworld.c(8): warning C4013: 'GeneralTesting' undefined; assuming extern returning int
+  GeneralTesting.c
+  Generating Code...
+  cExercises.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\cExercises.exe
+  cExercises.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\cExercises.pdb (Partial PDB)
