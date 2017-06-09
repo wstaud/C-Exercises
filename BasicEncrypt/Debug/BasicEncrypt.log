@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\dotlaptop\documents\projects\cexercises\cexercises\basicencrypt\main.c(29): warning C4013: 'atoi' undefined; assuming extern returning int
+  BasicEncrypt.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\BasicEncrypt.exe
+  BasicEncrypt.vcxproj -> C:\Users\DOTlaptop\Documents\projects\cExercises\cExercises\Debug\BasicEncrypt.pdb (Partial PDB)
