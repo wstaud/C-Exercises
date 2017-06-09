@@ -31,20 +31,36 @@ void encrypt() {
 	printf("What is the passpharse you would like to encrypt?\n");
 	readln(passpharse, 50);
 	
+	// Inset ending bit at end off encryptedPasspharse
 	for (int i = 0; i < 50; i++) {
 		if (passpharse[i] == '\0') {
 			encryptedPasspharse[i] = '\0';
-			printf("BREAK");
 			break;
 		}
+		// Basic encrypt algorthem
 		encryptedPasspharse[i] = passpharse[i] + 1;
-		//debug printf("%c", passpharse[i]);
 	}
-	printf("Encrypted passpharse is: %s", encryptedPasspharse);
+	printf("Encrypted passpharse is: %s\n", encryptedPasspharse);
 }
 
 void decrypt() {
+	char passpharse[50];
+	char decryptedPasspharse[50];
+
 	printf("Decryption Selected.\n");
+	printf("What is the passpharse you would like to decrypt?\n");
+	readln(passpharse, 50);
+
+	// Inset ending bit at end off decryptedPasspharse
+	for (int i = 0; i < 50; i++) {
+		if (passpharse[i] == '\0') {
+			decryptedPasspharse[i] = '\0';
+			break;
+		}
+		// Basic encrypt algorthem
+		decryptedPasspharse[i] = passpharse[i] - 1;
+	}
+	printf("Encrypted passpharse is: %s\n", decryptedPasspharse);
 }
 
 // Prompt User
