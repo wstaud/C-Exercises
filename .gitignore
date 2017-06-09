@@ -1,4 +1,7 @@
 .vs/
+*.vcxproj
+*.filters
+*.sln
 
 # Prerequisites
 *.d
