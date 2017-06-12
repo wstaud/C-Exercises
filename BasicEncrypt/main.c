@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Input Buffer Flush
 int readln(char s[], int maxlen) {
